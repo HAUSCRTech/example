@@ -33,7 +33,7 @@ your browser should take you to the Google Script editor where you will see some
 Close this for now, since *you should avoid having this open while editing locally*.
 Edit the file `Code.js` inside the `Code` directory by adding a line that inserts
 your name into the spreadsheet at the cell below the most recent person to edit the
-code. Then, from the Code directory, run `clasp push`, which takes your local code and puts it on the Google 
+code. Also put your GitHub username in the cell. Then, from the Code directory, run `clasp push`, which takes your local code and puts it on the Google 
 Script editor. You can then run `clasp open` and click the Play button to actually
 run the code. The result is visible in [this spreadsheet](https://docs.google.com/spreadsheets/d/1M-3v2b4eGb736QOrQ1AY6pcC8lQJkqyy9vAXK2Wjn9w/edit#gid=0). Note that running
 `clasp push` is not sufficient for collaborative development. If you are happy
