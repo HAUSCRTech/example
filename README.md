@@ -25,7 +25,7 @@ Next you'll want to login to Clasp by running `clasp login` which will open your
 web browser and allow you to pick a Google account. If you ever want to change
 accounts, just run `clasp logout` and login again.
 
-Now, go ahead and clone this repository to a convenient directory on your computer.
+Now, go ahead and first fork the main HAUSCRtech example repository. Then clone that forked repository to a convenient directory on your computer.
 I recommend keeping a directory called HAUSCRtech in a easy-to-find place. After
 cloning the repository, you should see a bunch of files, which you can list with
 the `ls` command. If you `cd` into the `Code` directory, and then run `clasp open`,
@@ -38,6 +38,6 @@ Script editor. You can then run `clasp open` and click the Play button to actual
 run the code. The result is visible in [this spreadsheet](https://docs.google.com/spreadsheets/d/1M-3v2b4eGb736QOrQ1AY6pcC8lQJkqyy9vAXK2Wjn9w/edit#gid=0). Note that running
 `clasp push` is not sufficient for collaborative development. If you are happy
 with your results and do not have errors, you should commit and push your changes
-to GitHub so that we update the central repository we are all using.
+to GitHub so that we update the central repository we are all using. Be sure to make a pull request from your fork at the end and make sure it's approved.
 
 I strongly recommend looking at [this codelab](https://codelabs.developers.google.com/codelabs/clasp) for more practice with Clasp!
