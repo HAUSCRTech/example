@@ -6,4 +6,5 @@ function myFunction() {
   SpreadsheetApp.getActiveSheet().getRange("A5").setValue("Amal amalmattoo");  
   SpreadsheetApp.getActiveSheet().getRange("A6").setValue("Allison AllisonKZhang");
   SpreadsheetApp.getActiveSheet().getRange("A7").setValue("Joy enjoythefood");
+  SpreadsheetApp.getActiveSheet().getRange("A8").setValue("Luke lukeminton");
 }
